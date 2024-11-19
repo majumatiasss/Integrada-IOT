@@ -1,0 +1,122 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f476;
+    color: #000000;
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 28px;
+    color: #000000;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 20px;
+    color: #000000;
+    font-weight: normal;
+}
+
+/* Formulário e Fieldsets */
+form {
+    background: #ffffff;
+    border: 1px solid #000000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+legend {
+    font-weight: bold;
+    color: #000000;
+    padding: 0 8px;
+}
+
+/* Labels e Inputs */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Ícones de Estrela */
+.fa-star {
+    color: #ffd700; /* Cor dourada para as estrelas */
+}
+
+/* Botão de Envio */
+button {
+    padding: 12px 20px;
+    background-color: #f7f476;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #f7f476;
+}
+
+/* Área de Saída */
+#output {
+    white-space: pre-wrap;
+    background-color: #e8f5e9;
+    border: 1px dashed #f7f476;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-family: monospace;
+}
+/* Estilo para a Mensagem de Sucesso */
+#mensagemSucesso {
+    display: none;
+    background-color: #e8f5e9;
+    color: #f7f476;
+    border: 1px solid #f7f476;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 16px;
+}
