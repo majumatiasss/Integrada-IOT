@@ -1,0 +1,102 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f9f9f9; /* Fundo da página */
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f476; /* Fundo do cabeçalho */
+    color: #000000;
+    border-bottom: 2px solid black;
+}
+
+h1 {
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+
+h2 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+/* Estilo da Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra na tabela */
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #fce833; /* Cabeçalho da tabela */
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+
+td {
+    border-bottom: 1px solid #000000;
+}
+
+/* Estilo das Áreas do Saber */
+.humanas, .natureza, .matematica, .linguagens, .curso-tecnico {
+    font-weight: bold;
+}
+
+.humanas {
+    background-color: #f7f476;
+}
+
+.natureza {
+    background-color: #f7f476;
+}
+
+.matematica {
+    background-color: #f7f476;
+}
+
+.linguagens {
+    background-color: #f7f476;
+}
+
+.curso-tecnico {
+    background-color: #f7f476;
+}
+
+/* Estilo das Disciplinas e Docentes */
+.disciplina, .professor {
+    background-color: #fffd94;
+}
+
+.disciplina {
+    font-weight: 500;
+    color: #000000;
+}
+
+.professor {
+    color: #000000;
+}
+
+/* Ícones */
+.icon {
+    margin-right: 5px;
+    color: #000000;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    th, td {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
