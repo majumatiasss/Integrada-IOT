@@ -1,0 +1,94 @@
+/*Configurações do corpo*/
+body {
+    font-family: Arial, sans-serif; /*define a fonte*/
+    margin: 0; /*define a margem em todos os lados*/
+    padding: 0; /*define o preenchimento interno em todos os lados*/
+    background-color: #ffffff; /*cor do fundo do corpo*/
+    color: #000000; /*cor da letra do corpo*/
+}
+
+/*Cabeçalho*/
+header {
+    background-color: #f7f476; /*cor do fundo do cabeçalho*/
+    color: rgb(0, 0, 0); /*cor da letra do cabeçalho*/
+    padding: 10px 20px; 
+    text-align: center; /*define o alinhamento do texto: centro*/
+}
+/* Estilo para a seção Sobre Mim */
+#sobre-mim {
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px 0; /* Espaçamento externo */
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #ddd; /* Adiciona uma borda sutil */
+}
+
+.sobre-mim-container {
+    display: flex; /* Organiza o conteúdo em linha */
+    align-items: center; /* Alinha verticalmente ao centro */
+    gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.perfil-imagem {
+    width: 150px; /* Largura fixa da imagem */
+    height: 150px; /* Altura fixa da imagem */
+    border-radius: 50%; /* Deixa a imagem circular */
+    object-fit: cover; /* Garante que a imagem ocupe o espaço sem distorcer */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra para destaque */
+}
+
+#sobre-mim p {
+    font-size: 1rem; /* Tamanho do texto */
+    line-height: 1.5; /* Espaçamento entre linhas */
+    color: #000000; /* Cor do texto */
+    margin: 0; /* Remove margem adicional */
+}
+/*Titulos*/
+h1, h2 {
+    margin: 0; /*define a margem em todos os lados*/
+}
+
+/*Configuração de seções*/
+section {
+    padding: 20px; /*define o preenchimento interno em todos os lados*/
+    margin: 20px 0; /*define a margem em todos os lados*/
+    background-color: #f7f476; /*cor da sessão de contato*/
+    border-radius: 5px; /*define o arredondamento dos cantos*/
+}
+
+/*Listas não ordenadas*/
+ul {
+    list-style-type: disc; /*Define o marcador como um ponto circular*/
+    padding: 0; /*define o preenchimento interno em todos os lados*/
+}
+
+ul li {
+    margin-bottom: 8px; /*define o espaço externo abaixo do elemento*/
+}
+
+/*Tabela de formação academica*/
+table {
+    width: 100%; /*define a largura*/
+    border-collapse: collapse; /*usado em tabela, mescla as bordas*/
+    margin-top: 10px; /*define espaço externo acima do elemento*/
+}
+
+table, th, td { /*estiliza a tabela inteira*/ /* estiliza as células do cabeçalho da tabela.*/ /*estiliza as células de dados da tabela.*/
+    border: 1px solid #ddd; /*adiciona borda*/
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+/* Estilo para as Imagens dos Projetos */
+.project-image {
+    width: 30%;
+    max-width: 300; /* Ajusta o tamanho máximo das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 10px 0;
+}
