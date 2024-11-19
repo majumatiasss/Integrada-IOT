@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f476;
+}
+header {
+    background-color: #f7f476;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1, h2, h3 {
+    color: #333;
+}
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 10px 0;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover {
+    text-decoration: underline;
+    text-align: center;
+}
+/* Estilo para as Imagens dos Projetos */
+.project-image {
+    width: 20%;
+    max-width: 300; /* Ajusta o tamanho máximo das imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block;
+    margin: 10px 0;
+}
