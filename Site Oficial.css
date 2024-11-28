@@ -1,0 +1,106 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+   }
+   h2 {
+    margin-bottom: 20px;
+   }
+   /* Personalizando a logo e navbar */
+.navbar-brand img {
+    width: 70px; /* Ajuste o tamanho da logo */
+    height: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px; /* Espaço entre logo e nome */
+   }
+   .navbar-brand {
+    font-size: 1.5rem; /* Tamanho do texto */
+    font-weight: bold;
+   }
+   /* Estilo do Carrossel */
+   .carousel-item img,
+   .carousel-item video {
+    height: 450px; /* Ajuste para aumentar a altura do carrossel */
+    object-fit: cover;
+   }
+   .carousel-caption {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 10px;
+   }
+   .carousel-control-prev-icon,
+   .carousel-control-next-icon {
+    filter: invert(100%);
+   }
+   /* Áreas do Saber */
+   #areas .btn {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+   }
+   #areas .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+   }
+   #areas .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+   }
+   #areas .btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+   }
+   #areas .btn-outline-warning:hover {
+    background-color: #ffc107;
+    color: #212529;
+   }
+   /* Submenus */
+   #areas .collapse a {
+    display: block;
+    font-size: 1rem;
+    padding: 8px 15px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none;
+   }
+   #areas .collapse a:hover {
+    background-color: #f1f1f1;
+    color: #333;
+   }
+   /* Página Pessoal */
+   #pessoal p {
+    font-size: 1.2rem;
+    color: #555;
+   }
+   /* Botão Voltar */
+   .button-back {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+   }
+   .button-back:hover {
+    background-color: #0056b3;
+   }
+   /* Responsividade */
+   @media (max-width: 768px) {
+    .carousel-item img,
+    .carousel-item video {
+      height: 300px;
+    }
+    .navbar-brand {
+      font-size: 1.2rem;
+    }
+    .nav-link {
+      font-size: 1rem;
+    }
+   }
